@@ -1,0 +1,3 @@
+tup=("apple","mango","melon")
+print(tup)
+print(len(tup))
