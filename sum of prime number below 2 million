@@ -1,0 +1,10 @@
+from sympy import isprime
+
+limit = 2_000_000
+prime_sum = 0
+
+for n in range(2, limit):
+    if isprime(n):  
+        prime_sum += n
+
+print(prime_sum)
